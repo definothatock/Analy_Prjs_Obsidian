@@ -17,7 +17,7 @@
 
 
 ### Mechanics Subcategories:
-- Player actions and goals; unit of Gameplay.
+- Player actions and goals; unit of Gameplay / Interactions.
   Defines By: Game Rules.
 	
 	Moment-to-Moment Dynamic (Core Mechanics):

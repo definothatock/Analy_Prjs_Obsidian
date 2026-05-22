@@ -77,9 +77,9 @@ With the above components, what are the main Systems?
 	- Inventory UI Systems
 
 - Common Questions:
-	What do they do (no in-out) ?
 	What do they transform (in -> out) ?
 	What do they provide (out) ?
+	What do they do (No in-out) ?
 	Why Must this system?
 
 
