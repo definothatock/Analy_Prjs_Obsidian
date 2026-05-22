@@ -25,13 +25,14 @@
             "id": "5ea56a131321626b",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "Center.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Center"
             }
           },
           {
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.base",
+                "file": "Center.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Center"
             }
           },
           {
@@ -151,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.base",
+                "file": "Center.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Center"
             }
           },
           {
@@ -194,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.base",
+                "file": "Center.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Center"
             }
           },
           {
@@ -234,13 +235,13 @@
   },
   "active": "5ea56a131321626b",
   "lastOpenFiles": [
-    "Discussion Standards.md",
     "Untitled.base",
+    "Discussion Standards.md",
     "Attribute Reference Table.md",
     "Analy_Prjs_Obsidian",
     "Prototype Template.md",
     "system Design Standards.md",
-    "Main.md",
+    "Center.md",
     "Platformer.md",
     "PvE.md",
     "DeckBuiler.md",
