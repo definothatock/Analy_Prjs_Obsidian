@@ -4,63 +4,91 @@
     "type": "split",
     "children": [
       {
-        "id": "1a6ab72516783a61",
-        "type": "tabs",
+        "id": "aed3a783cb30a2db",
+        "type": "split",
         "children": [
           {
-            "id": "ab7f178fe6bd2ebb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attribute Reference Table.md",
-                "mode": "source",
-                "source": false
+            "id": "85d51562c10de271",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "abeccfec59d38d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Standards/Discussion Standard.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Discussion Standard"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Attribute Reference Table"
-            }
+              {
+                "id": "4a9c3c571045e7b6",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "9644238e130bdee7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Center.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Center"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "6ab18921b619ab59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prototype Template.md",
-                "mode": "source",
-                "source": false
+            "id": "36bf4170cc6cacd2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ab7f178fe6bd2ebb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Standards/Attribute Reference Table.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Attribute Reference Table"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Prototype Template"
-            }
-          },
-          {
-            "id": "abeccfec59d38d4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discussion Standards.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Discussion Standards"
-            }
-          },
-          {
-            "id": "08f467932a1aec3b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
+              {
+                "id": "2d04d4d643f818e7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Standards/Terminology & Definition.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Terminology & Definition"
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
-        "currentTab": 1
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -117,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d9d5ce2e8f677b8",
@@ -133,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prototype Template.md",
+                "file": "Standards/Terminology & Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +172,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Prototype Template"
+              "title": "Backlinks for Terminology & Definition"
             }
           },
           {
@@ -152,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prototype Template.md",
+                "file": "Standards/Terminology & Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Prototype Template"
+              "title": "Outgoing links from Terminology & Definition"
             }
           },
           {
@@ -195,13 +224,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prototype Template.md",
+                "file": "Standards/Terminology & Definition.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prototype Template"
+              "title": "Outline of Terminology & Definition"
             }
           },
           {
@@ -233,15 +262,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ab18921b619ab59",
+  "active": "2d04d4d643f818e7",
   "lastOpenFiles": [
-    "Attribute Reference Table.md",
-    "Prototype Template.md",
-    "Discussion Standards.md",
+    "Standards/Terminology & Definition.md",
+    "Standards/Discussion Standard.md",
     "Center.md",
-    "Center.base",
+    "Standards/Attribute Reference Table.md",
+    "Standards/Idea and Plan Standard.md",
+    "Standards/System Design Standard.md",
+    "Center_ContentTable.base",
+    "Standards/T_GenreSupportingLadder.png",
+    "Standards",
     "Analy_Prjs_Obsidian",
-    "system Design Standards.md",
     "Platformer.md",
     "PvE.md",
     "DeckBuiler.md",

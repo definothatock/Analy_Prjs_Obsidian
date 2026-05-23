@@ -1,10 +1,7 @@
 
-***List of near-orthogonal (conceptually) attributes, in different dimensions for better analysis and comparison.***
+***Preliminary classification aid (descriptive shortcuts); NOT a substitute for mechanic/system analysis.***
 
 ---
-
-# "Genre" Attribute Categories
-***These should really be Separated. But conventionally they are put in the same basket.***
 
 ### Player unit dynamics:
 - Things about the dynamics between the real players (and computer).
@@ -15,29 +12,46 @@
 	#PvE - has element of playing ***against*** Computer
 	#Single - negation of the above
 
+---
+
+# Existing "Genre" Attribute Categories
+***Pre-defined Mechanics/Rendering/Feel which players already understood. They combines to form Systems (or already some form of system already)***
+These should really be Separated. But conventionally they are put in the same "Genre" basket.
+
 
 ### Mechanics Subcategories:
-- Player actions and goals; unit of Gameplay / Interactions.
+- Unit of Gameplay / Interactions, main component of Systems.
   Defines By: Game Rules.
 	
-	Moment-to-Moment Dynamic (Core Mechanics):
+	**Moment-to-Moment Dynamic (Core Mechanics):**
 	- UnGrouped
 		#Carder - Throw cards
 		#Platformer - Jumping between platforms
-		#RTS - Strategies with no time stop
-	
+		#Clicker - 
 	- Shooters
 		#FPShooter - 
 		#TPShooter
+	- Simulations
+		#SystemSim - Simulate intertwined loops or union of processes
+		#TaskSim - Simulate tasks
+	- Strategy
+		#RTS - Think, plan, act with no time stop
+		#ChessPiece - Think, plan, act with time stop; has explicit coordinate
 	
-	Progression/Loop Mode (Progression Mechanics):
+	
+	**Progression/Loop Mode (Progression Mechanics):**
 	- UnGrouped
-	#DeckBuilder - Build Card Decks
-	
+		#DeckBuilder - Build Card Decks
 	- Exploration
 		#OpenWorld - Progress with Exploring the world
 		#RougeLike - Loops with heavy randomization
 		#Metrovania - 2D exploration with progression locks
+	- Narrative
+		Focus on Judgement with information
+		#Walking-sim - Environmental narrative game (excludes ***pure*** walking sim)
+		#VisualNovel - 
+	- Simulations
+		#SystemSim - Simulate intertwined loops or union of processes
 
 
 
@@ -46,6 +60,15 @@
   Defines By: Rendering
 	
 	**Rendering-Art style:**
+
+
+
+### Extra: High abstraction "Genre"
+- "Genre" that aren't granular; but of the whole System/Game.
+  Not really helpful in analysis the Structure of the Designs. 
+	
+	- 4X
+	- RPG
 
 ---
 
@@ -62,9 +85,13 @@ rewards that does not affect the game, but have strong Social value
 
 
 
+---
 
+# Standard Game-Frame
 
+Almost all games with decent gameplay and 'feel' has this Framing regardless of the content:
 
+![[T_GenreSupportingLadder.png]]
 
 
 
