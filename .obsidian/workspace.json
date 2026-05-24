@@ -4,91 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "aed3a783cb30a2db",
-        "type": "split",
+        "id": "85d51562c10de271",
+        "type": "tabs",
         "children": [
           {
-            "id": "85d51562c10de271",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "abeccfec59d38d4b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Standards/Discussion Standard.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Discussion Standard"
-                }
+            "id": "abeccfec59d38d4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis Standards/Analytical Discussion Standard.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "4a9c3c571045e7b6",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              },
-              {
-                "id": "9644238e130bdee7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Center.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Center"
-                }
-              }
-            ],
-            "currentTab": 1
+              "icon": "lucide-file",
+              "title": "Analytical Discussion Standard"
+            }
           },
           {
-            "id": "36bf4170cc6cacd2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ab7f178fe6bd2ebb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Standards/Attribute Reference Table.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Attribute Reference Table"
-                }
+            "id": "a6a80c6ad4b2658b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal References/Terminology & Definition.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "2d04d4d643f818e7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Standards/Terminology & Definition.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Terminology & Definition"
-                }
-              }
-            ],
-            "currentTab": 1
+              "icon": "lucide-file",
+              "title": "Terminology & Definition"
+            }
+          },
+          {
+            "id": "e9f8d337bf0e6e84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internal References/Attribute Reference Table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Attribute Reference Table"
+            }
           }
-        ],
-        "direction": "vertical"
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9d9d5ce2e8f677b8",
@@ -162,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standards/Terminology & Definition.md",
+                "file": "Analysis Standards/Analytical Discussion Standard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Terminology & Definition"
+              "title": "Backlinks for Analytical Discussion Standard"
             }
           },
           {
@@ -181,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standards/Terminology & Definition.md",
+                "file": "Analysis Standards/Analytical Discussion Standard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Terminology & Definition"
+              "title": "Outgoing links from Analytical Discussion Standard"
             }
           },
           {
@@ -224,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standards/Terminology & Definition.md",
+                "file": "Analysis Standards/Analytical Discussion Standard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Terminology & Definition"
+              "title": "Outline of Analytical Discussion Standard"
             }
           },
           {
@@ -262,17 +222,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d04d4d643f818e7",
+  "active": "abeccfec59d38d4b",
   "lastOpenFiles": [
-    "Standards/Terminology & Definition.md",
-    "Standards/Discussion Standard.md",
+    "Internal References/Terminology & Definition.md",
+    "Analysis Standards/Analytical Discussion Standard.md",
+    "Planning Standards/System Design Standard.md",
+    "Internal References/Attribute Reference Table.md",
+    "TEMP.md",
     "Center.md",
-    "Standards/Attribute Reference Table.md",
-    "Standards/Idea and Plan Standard.md",
-    "Standards/System Design Standard.md",
+    "Internal References",
     "Center_ContentTable.base",
-    "Standards/T_GenreSupportingLadder.png",
-    "Standards",
+    "Planning Standards/Idea and Plan Standard.md",
+    "Planning Standards",
+    "Internal References/T_GenreSupportingLadder.png",
+    "Analysis Standards",
     "Analy_Prjs_Obsidian",
     "Platformer.md",
     "PvE.md",

@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -15,10 +15,24 @@
       }
     },
     {
-      "query": "path:Standards",
+      "query": "path:\"Analysis Standards\"  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 6603580
+      }
+    },
+    {
+      "query": "path:\"Planning Standards\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 567903
+      }
+    },
+    {
+      "query": "path:\"Internal References\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 155417
       }
     }
   ],
@@ -32,6 +46,6 @@
   "repelStrength": 13.991683991684,
   "linkStrength": 1,
   "linkDistance": 101,
-  "scale": 0.9999999999999926,
+  "scale": 1.4019828977760866,
   "close": true
 }

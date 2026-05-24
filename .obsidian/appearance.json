@@ -1,1 +1,5 @@
-{}
+{
+  "enabledCssSnippets": [
+    "bold_styling"
+  ]
+}

@@ -5,7 +5,7 @@ This is not a Technical Guide.
 [[Terminology & Definition]]
 [[Attribute Reference Table]]
 
-[[Discussion Standard]]
+[[Analytical Discussion Standard]]
 [[Idea and Plan Standard]]
 [[System Design Standard]]
 
