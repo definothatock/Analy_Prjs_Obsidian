@@ -1,11 +1,11 @@
 ## Purpose
 
-**This page NOT a Standard, but a compact reference table of reusable labels for classifying game attributes during analysis.**
+**This page is NOT a Standard, but a compact reference table of reusable labels for classifying game attributes during analysis.**
 
 > **IMPORTANT:** 
-> These labels are **NOT** analytically equivalent. Some labels are community-used, which can refer to player structure, to mechanics, to progression forms, to presentation, or to broad market categories. They exist to support fast labeling, comparison, and shorthand communication.
+> These labels are **NOT** analytically equivalent. Some labels are community-used and can refer to bundles, including but not limited to structure, mechanics, progression forms, presentation, or broad market categories. They exist to support fast labelling, comparison, and shorthand communication.
 > 
-> They are not intended to explain nor define systems in depth; Some may also have overlapping tone/definition. These labels should not be a substitute for system description.
+> They are not intended to explain nor define systems in depth; Some may also overlap in tone or meaning. These labels should not be a substitute for system description.
 
 
 *Guidelines*
@@ -17,7 +17,7 @@
 
 
 ---
-# 1. Player Unit Dynamics
+# 1. Actor Relation Structure
 ***Defined by actor relations.***
 These describe the relationship structure between the player, other players, and game-controlled opposition.
 
@@ -39,9 +39,11 @@ These are pre-existing label categories commonly treated as “genre,” even th
 >Mechanics are not limited to the labels below.  
 >Define specific framing where needed.
 
+> Groups are only for convenience, not equivalent categories.
+
 **A. Moment-to-Moment Dynamics (Core Mechanics)**
 - Ungrouped
-	#Carder — using or deploying cards
+	#Carder — card deployment as primary interaction
 	#Platformer — traversing platforms through jumping
 	#Clicker — repeated simple inputs for incremental gain
 - Shooters
@@ -52,8 +54,7 @@ These are pre-existing label categories commonly treated as “genre,” even th
 	#TaskSim — performing structured tasks that model a specific activity or role
 - Strategy
 	#RTS — planning and action occur in real time
-	#ChessPiece — deliberate positional decision-making with explicit spatial logic
-
+	#ChessPiece — deliberate positional play with explicit spatial commitment
 
 **B. Progression / Loop Modes
 - Ungrouped
@@ -86,7 +87,9 @@ Examples:
 
 ---
 # 3. Reward Modes
-Limited to in-game reward structures. Excludes monetization and platform-level incentives.
+***Common reward orientations, not a complete taxonomy.***
+
+>Limited to in-game reward structures. Excludes monetization and platform-level incentives.
 
 ## A. Simple Completion
 Reward is primarily victory, completion, or reaching the end state, with little persistent reward structure beyond that result.
