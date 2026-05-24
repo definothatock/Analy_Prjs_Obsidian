@@ -1,9 +1,12 @@
 ## Purpose
 
-**This page is a compact reference table of reusable labels for classifying game attributes during analysis.
+**This page NOT a Standard, but a compact reference table of reusable labels for classifying game attributes during analysis.**
 
-> It is not intended to explain systems in depth.  
-> It exists to support fast labeling, comparison, and shorthand communication.
+> **IMPORTANT:** 
+> These labels are **NOT** analytically equivalent. Some labels are community-used, which can refer to player structure, to mechanics, to progression forms, to presentation, or to broad market categories. They exist to support fast labeling, comparison, and shorthand communication.
+> 
+> They are not intended to explain nor define systems in depth; Some may also have overlapping tone/definition. These labels should not be a substitute for system description.
+
 
 *Guidelines*
 - Tags on this page are shorthand references, **not complete analyses**
