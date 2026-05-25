@@ -1,0 +1,4 @@
+- What **explicit** design **purpose**, **goal**, or **experience** does it serve
+- What is its **role** in the in the wider project
+- What **player** **behaviors**, **decision** patterns, or forms of **attention** does it encourage, shape, or regulate
+- What **pacing**, **tension**, **mastery**, or **fantasy** does it support
