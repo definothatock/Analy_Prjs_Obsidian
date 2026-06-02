@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis Standards/Analytical Discussion Standard.md",
-                "mode": "source",
+                "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Analytical Discussion Standard"
+              "title": "Analytical Discussion Standard on Designs"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Analysis Standards/Analytical Discussion Standard.md",
+            "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Analysis Standards/Analytical Discussion Standard.md",
+            "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Analysis Standards/Analytical Discussion Standard.md",
+            "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -171,7 +171,12 @@
   },
   "active": "4a777f35d8a09c07",
   "lastOpenFiles": [
+    "Internal References/Terminology & Definition.md",
+    "Internal References/Attribute Reference Table.md",
+    "Analysis Standards/Analytical Discussion Standard on Designs.md",
+    "Untitled.md",
     "Center_ContentTable.base",
+    "Analysis Standards/Analytical Discussion Standard.md",
     "Center.md"
   ]
 }
