@@ -18,12 +18,12 @@ This standard is **modular**. Not every section applies equally to every unit of
 
 ## 0.1 Unit of Analysis
 
-Identify what is being analysed:
+Identify what is (are) being analysed:
 - the full Project
-- a Mode
-- a System
-- a Subsystem
-- a recurring Loop
+- Mode
+- System(s)
+- Subsystem(s)
+- Recurring Loop
 
 Then select the sections necessary for that analysis:
 - **Project / Mode** analysis should emphasize framing, play structure, audience fit, and overall alignment.
@@ -117,7 +117,7 @@ _**Identify the recurring structure of play surrounding the chosen unit of analy
 
 >For full-project or mode analysis, this section is usually central.  
 >
->For system-focused analysis, include only the framework elements necessary to explain how the system is encountered, pressured, and repeated in play.
+>For system-focused analysis, include only the framework elements necessary to explain how the system is encountered, utilised, and repeated in play.
 
 ## 2.1 Play Objective / Success State
 Identify What the **player** is broadly trying to **achieve**.
@@ -266,7 +266,7 @@ Focus:
 - initial readability
 - tutorial
 - early rule exposure
-- early demand level
+- early demand skill level
 - how the project teaches action and consequence
 
 ## 4.2 Repetition and Variation
@@ -453,6 +453,25 @@ Base one System or Project analysis, may Contain:
 - **Design Strengths:** What is working especially well
 - **Design Risks / Weaknesses:** What limits, distorts, or weakens the project
 - **Overall Judgment:** Does the project successfully achieve its likely design intentions
+
+
+---
+# Extra Materials
+## Quick Review / Abstract** *(Optional)*
+_**A compact recall-oriented summary of the analysis.**_
+
+This optimal section is used to capture the most important conclusions in a form that can be quickly re-read later without revisiting the full discussion. This should be **located before all other sections** in each writing entry, even though this should be done last.
+
+> This section is a recall aid, not the analysis; abstract the strongest conclusions, not restate reasonings.
+
+Possible contents:
+- **Unit of Analysis:** what was analysed
+- **Analytical Focus:** what the discussion mainly examined
+- **Core Finding:** the main structural or evaluative conclusion
+- **Identity / Role:** what experience the project appears to pursue, or what role the system serves
+- **Major Strength:** what most strongly works
+- **Major Risk / Weakness:** what most limits effectiveness
+- Other noticeable findings that are not limited to the subject matter, for example, community opinions, later development shifts, etc.
 
 
 ---
