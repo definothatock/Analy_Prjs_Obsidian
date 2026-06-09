@@ -144,8 +144,10 @@ Examples:
 
 ---
 
-# 4. Core Functions
+# 4. Core Functions *(if applicable)*
 Describe the minimum functional pieces needed to build it.
+
+>Use Tick() only when it's necessity or benefits wins the drawbacks.
 
 For each function, give:
 - **Name**
@@ -172,6 +174,8 @@ Example format:
 
 > Do not force a fixed API shape.  
 > Only describe the functions actually needed.
+
+> Read **8.3** if the Functions involve with Networking.
 
 
 ---
@@ -202,7 +206,7 @@ Examples:
 - target cap
 
 ## 5.3 Failure / Rejection Cases
-What should happen when activation is attempted but invalid?
+What should happen when activation is attempted but ?
 
 Examples:
 - do nothing
@@ -292,3 +296,24 @@ Examples:
 - editor visualization
 - tuning data table
 
+## 8.3 Network Considerations
+If this mechanic is exposing to multiplayer.
+
+Examples:
+- Network relevance
+- Authority
+- Request flow
+- Replicated state
+- Local-only state
+- Prediction need
+- Trust boundary
+- Latency / desync risks
+
+Add network prefix for functions:
+- *Request_* - indicates general invoking 
+- *RpcServer_* - indicates client requesting server action
+- *Auth_*-  indicates authenticated (Hosting Server usually) 
+- *MulC_* - indicates multicast
+
+After network prefix, add tag right before function name:
+- Try - When invoker is not guarantee to success

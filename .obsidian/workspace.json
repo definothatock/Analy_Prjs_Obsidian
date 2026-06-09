@@ -11,27 +11,14 @@
             "id": "e9f8d337bf0e6e84",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "261a1e8c6f6bc673",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning Standards/Mechanic Descriptor Standard.md",
+                "file": "implementation/File Layout Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mechanic Descriptor Standard"
+              "title": "File Layout Template"
             }
           }
         ]
@@ -169,17 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning Standards/Mechanic Descriptor Standard.md",
+                "file": "implementation/File Layout Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mechanic Descriptor Standard"
+              "title": "Outline of File Layout Template"
             }
           },
           {
-            "id": "0dd600512bd04f99",
+            "id": "c236ac8698dc6c1b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -209,29 +196,32 @@
   },
   "active": "e9f8d337bf0e6e84",
   "lastOpenFiles": [
-    "Analysis Standards/Analytical Discussion Standard on Designs.md",
-    "Untitled.base",
-    "Planning Standards/Mechanic Descriptor Standard.md",
-    "Untitled 1.md",
-    "knowledge depot/Mechanic knowledge depot.md",
+    "Center.md",
+    "Researched/System knowledge depot.md",
+    "Researched/Mechanic knowledge depot.md",
+    "implementation/File Layout Template.md",
+    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
+    "implementation",
+    "Methodology/Internal References/Attribute Reference Table.md",
+    "Raw",
+    "Methodology",
+    "Raw/Wondering Basket/HowIsThisFun00.png",
     "Untitled.md",
-    "knowledge depot",
-    "Planning Standards/Design Standard on Mechanics & Systems.md",
-    "knowledge depot/System knowledge depot.md",
-    "Internal References/Terminology & Definition.md",
-    "Wondering Basket/HowIsThisFun00.png",
+    "Center_ContentTable.base",
+    "Untitled.base",
+    "Methodology/Internal References/Terminology & Definition.md",
+    "Methodology/Analysis Standards/Analytical Discussion Standard on Designs.md",
+    "Untitled 1.md",
+    "Researched",
     "Wondering Basket/Untitled 1.md",
-    "Wondering Basket",
-    "Internal References/Attribute Reference Table.md",
+    "Raw/Wondering Basket",
     "[[Attribute.md",
     "TEMP.md",
-    "Center.md",
-    "Internal References",
-    "Center_ContentTable.base",
-    "Planning Standards",
-    "Internal References/T_GenreSupportingLadder.png",
-    "Analysis Standards",
-    "Analy_Prjs_Obsidian",
+    "Methodology/Internal References",
+    "Methodology/Planning Standards",
+    "Methodology/Internal References/T_GenreSupportingLadder.png",
+    "Methodology/Analysis Standards",
     "Platformer.md",
     "PvE.md",
     "DeckBuiler.md",
