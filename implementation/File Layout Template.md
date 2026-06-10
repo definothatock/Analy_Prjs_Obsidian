@@ -2,8 +2,9 @@
 
 ```cpp
 /*
- * Template for file structuring. 
+ * Template for file structuring, aims to reduce cognitive load.
  * Make comment for every declarations, unless the name is enough self-explanatory.
+ * Make enough linebreaks.
  */
 
 
@@ -11,9 +12,14 @@
  * .h file
  */
 
+
 #include "CoreMinimal.h"
 
-// ==================== Declares ====================
+
+/* ==================== Declares ==================== */
+
+constexpr float DataFallback = 1.f;
+
 
 USTRUCT()  
 struct ExampleStruct  
@@ -61,24 +67,32 @@ UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class EXAMPLE_API UExampleInherited : public UExampleParent 
 {  
     GENERATED_BODY()
-public:
+	
 	UExampleInherited();
 	
 	
-protected:
-	
 	/* ==================== Overrides ==================== */
-	
+public:
 	virtual void BeginPlay() override;
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 	
 	
-public:
+
 	
+	/* ==================== Components ==================== */
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UCameraComponent* FollowCamera;
+	
+	
+public:
 	/* ==================== APIs ==================== */
+	
+	/* ----- Subsection Name01 ----- */
 	
 	UFUNCTION(BlueprintCallable, Category="Example")
 	void Request_Start();
+	
 	
 	
 	/* ==================== Queries ==================== */
@@ -87,24 +101,29 @@ public:
 	bool IsActive() const { return bActive; }
 	
 	
-	/* ==================== Delegates ==================== */
+	
+	/* ==================== Event Delegates ==================== */
 	
 	UPROPERTY(BlueprintAssignable, Category="Example")
 	FExampleDelegate OnExample;
 	
 	
-protected:
 	
 	/* ==================== Subclasses Extension ==================== */
 	
+protected:
 	virtual void HandleStart();
 	virtual void HandleStop();
 	
 	
-private:
 	
 	/* ==================== Internal Function ==================== */
 	
+protected:  
+    UFUNCTION()  
+    void OnRep_CurrentStamina();
+	
+private:
 	/* ----- Subsection Name01 ----- */
 	
 	// Internal request reroute
@@ -118,6 +137,8 @@ private:
 	
 	void DoInternal();
 	
+	
+	
 	/* ==================== Runtime State ==================== */
 	
 	UPROPERTY(Transient, Replicated)
@@ -127,22 +148,29 @@ private:
 	TWeakObjectPtr<UPrimitiveComponent> CachedComp;
 	
 	
+	
 	/* ==================== Config ==================== */
 	
-	// Editor Blueprints can read/tweak, no external change.
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Example|Config", meta=(AllowPrivateAccess="true", ClampMin="0.0"))
+	/* ----- Subsection Name01 ----- */
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Example|Config", meta=(AllowPrivateAccess="true", ClampMin="0.0"))
 	float PrivateData = 100.f;
+	
+	/* ----- Subsection Name02 ----- */
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
+	TObjectPtr<UExampleClass> ExampleObj;
+	
 	
 	
 	/* ==================== Helpers ==================== */
 	
 	void GetOwnerState();
-	
 }
 
 
 /*
- * .cpp file follows the same Structure.
+ * .cpp file follows the same commented Structure.
  */
 
 ```
