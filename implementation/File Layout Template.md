@@ -38,20 +38,23 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FExampleDelegate);
 /*
  * [discription of the main purpose]
  *
- * Main Functions:
- * - [Discrptions]
+ * Functions:
+ * - [Discrptions of mains]
  *
- * Main Rules:
- * - [definitions]
- * 
+ * Rules:
+ * - [Definitions of mains]
+ *
+ * Workflow:
+ * - [Descriptions of mains]
+ *
  * States:
- * - [Discrptions]
+ * - [Discrptions of mains]
  *
- * Boundary:
- * - [Discrptions]
+ * Boundary/Limitation:
+ * - [Discrptions of mains]
  *
  * Networking:
- * - [mention replcation mode and special neworkings]
+ * - [mention replcation mode and special networkings]
  *
  * Reference:
  * - [mention if exists]
@@ -133,9 +136,15 @@ private:
 	// ServerSide works
 	bool Auth_TryStart();
 	
+	
 	/* ----- Subsection Name02 ----- */
 	
 	void DoInternal();
+	
+	
+	/* ----- Subsection Name02 ----- */
+	
+	void GetOwnerState();
 	
 	
 	
@@ -156,16 +165,11 @@ private:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Example|Config", meta=(AllowPrivateAccess="true", ClampMin="0.0"))
 	float PrivateData = 100.f;
 	
+	
 	/* ----- Subsection Name02 ----- */
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UExampleClass> ExampleObj;
-	
-	
-	
-	/* ==================== Helpers ==================== */
-	
-	void GetOwnerState();
 }
 
 
