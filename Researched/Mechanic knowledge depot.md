@@ -1,12 +1,5 @@
 
 ---
-# A game idea is nothing without structured relations.
-
----
-"Gameplay" is the Process of where the player active with the player "Verbs" with the given content and constraints, such as the "Rules" and "Systems".
-
-
-
 
 
 TEMP:

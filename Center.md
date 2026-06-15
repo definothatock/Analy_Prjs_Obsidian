@@ -6,6 +6,6 @@ This is not a Technical Guide.
 [[Attribute Reference Table]]
 
 [[Analytical Discussion Standard on Designs]]
-[[Idea and Plan Standard]]
-[[System Design Standard]]
+[[Mechanic knowledge depot]]
+[[System knowledge depot]]
 
