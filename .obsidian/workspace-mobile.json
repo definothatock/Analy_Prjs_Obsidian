@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+                "file": "Plannings/Container (Backpack) Inventory System Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mechanic Descriptor Standard"
+              "title": "Container (Backpack) Inventory System Plan"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "4a777f35d8a09c07",
   "lastOpenFiles": [
-    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
     "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
     "Planning Standards/System Design Standard.md",
     "Internal References/Attribute Reference Table.md",
     "Analysis Standards/Analytical Discussion Standard on Designs.md",

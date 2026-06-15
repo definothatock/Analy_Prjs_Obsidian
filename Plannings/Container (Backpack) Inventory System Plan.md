@@ -125,19 +125,15 @@ The design should encourage the player to:
 - make decisions about what to carry
 - drop or swap bags intentionally
 - use hotbar for quick-access items, not as separate magical storage
-
----
+- Other player access backpack that is wore on another player
 
 ## 1.4 Anti-Goals
-
 Avoid:
-
 - making the player inventory a giant hidden container
 - making item ownership unclear
 - duplicating items between backpack and hotbar
 - coupling backpack logic directly to player character
 - building MMO-level item architecture before needed
-- forcing item grids if simple slots are enough
 - having every system directly talk to the player inventory
 
 ---
@@ -145,15 +141,13 @@ Avoid:
 # 2. Core Design Frame
 
 ## 2.1 System Purpose
-
-The Storage / Backpack Inventory System exists to answer:
+The Container Inventory System exists to answer:
 
 > Where are items stored, and how does the player access them?
 
 Its role is to provide modular item storage through container actors/components.
 
 The player character should only handle:
-
 - interaction
 - equipping containers
 - accessing the currently equipped storage
