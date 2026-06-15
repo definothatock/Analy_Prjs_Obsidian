@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning Standards/Idea and Plan Standard.md",
-                "mode": "preview",
+                "file": "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea and Plan Standard"
+              "title": "Mechanic Descriptor Standard"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
+            "file": "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -159,6 +159,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,6 +171,8 @@
   },
   "active": "4a777f35d8a09c07",
   "lastOpenFiles": [
+    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
+    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
     "Planning Standards/System Design Standard.md",
     "Internal References/Attribute Reference Table.md",
     "Analysis Standards/Analytical Discussion Standard on Designs.md",
