@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+            "file": "Plannings/Container (Backpack) Inventory System Plan.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Analysis Standards/Analytical Discussion Standard on Designs.md",
+            "file": "Plannings/Container (Backpack) Inventory System Plan.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,7 +155,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,8 +171,9 @@
   },
   "active": "4a777f35d8a09c07",
   "lastOpenFiles": [
-    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
     "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
+    "Plannings/Container (Backpack) Inventory System Plan.md",
+    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
     "Planning Standards/System Design Standard.md",
     "Internal References/Attribute Reference Table.md",
     "Analysis Standards/Analytical Discussion Standard on Designs.md",

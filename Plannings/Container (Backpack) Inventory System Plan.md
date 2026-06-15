@@ -34,7 +34,7 @@ Primary unit:
 - **Container / Backpack Inventory System**
 
 Possible related but separate units:
-- Hotbar System
+- Toolbelt System
 - Item Pickup System
 - Equipment / Wearable Container System
 - Container UI System
@@ -43,13 +43,9 @@ Possible related but separate units:
 For this plan, the main focus is:
 **Container-based storage structure.**
 
-Keep in mind:
-In later development, Hotbar can be the same system as the container system, having the player themselves as the "container" (toolsbelt?). Or, a modified/derived version of the container system.
-
-
 ## 0.2 Design Goal
 
->In previous project, the inventory system was a edited version of Steven Ulibrari's mmorpg spacial inventory system. While Steven's system was highly professional, it accounts for aspects that this project would avoids, or at least not to include from early prototyping.
+>In previous project, the inventory system was a light-edited version of Steven Ulibrari's mmorpg spacial inventory system. While Steven's system was highly professional, it accounts for aspects that this project would avoids, or at least not to include from early prototyping.
 
 The goal is to create a simple inventory structure while keeping good professional separation.
 
@@ -89,9 +85,6 @@ Backpack Actor
 
 Chest Actor
  └── owns Storage Component
-
-Loot Bag Actor
- └── owns Storage Component
 ```
 
 The storage logic should be reusable across any actor that can hold items.
@@ -124,17 +117,17 @@ The design should encourage the player to:
 - understand where items are stored
 - make decisions about what to carry
 - drop or swap bags intentionally
-- use hotbar for quick-access items, not as separate magical storage
+- use Toolbelt as a limited quick-storage
 - Other player access backpack that is wore on another player
 
 ## 1.4 Anti-Goals
 Avoid:
 - making the player inventory a giant hidden container
 - making item ownership unclear
-- duplicating items between backpack and hotbar
+- duplicating items between backpack and Toolbelt
 - coupling backpack logic directly to player character
 - building MMO-level item architecture before needed
-- having every system directly talk to the player inventory
+- having every system directly talk to the player inventory ANCHOR
 
 ---
 
@@ -150,47 +143,42 @@ Its role is to provide modular item storage through container actors/components.
 The player character should only handle:
 - interaction
 - equipping containers
-- accessing the currently equipped storage
 - requesting item actions
 
-The actual item list should live elsewhere.
-
----
+>The actual item list should live elsewhere; could be data table, csv, tags and uuid, etc. The Container System should still be at least semi-operational without the above.
 
 ## 2.2 Success Contribution
-
 The system helps gameplay by:
-
 - limiting what the player can carry
 - giving value to containers
 - allowing dropped backpacks to preserve their contents
 - supporting looting and recovery
-- making inventory expandable through new container types
-
----
+- making inventory expandable through types or configs (preferred)
 
 ## 2.3 Design Pillars
 
-### Pillar 1 — Storage Belongs to Containers
+### Pillar 1: Storage Belongs to Containers
+The player does not directly own most item storage; Backpacks, chests, bags, crates, and similar objects own storage.
 
-The player does not directly own most item storage.  
-Backpacks, chests, bags, crates, and similar objects own storage.
-
-### Pillar 2 — Player Access Is a Reference, Not Ownership
-
-The player accesses a backpack because they are wearing or interacting with it.
+### Pillar 2: Player Access Is a Reference, Not Ownership
+The player accesses a backpack because they are interacting with it.
 
 ```text
-Player -> Equipped Backpack -> Storage Component -> Item Slots
+Player -> interacted Backpack -> Storage Component -> Item Slots
 ```
 
-### Pillar 3 — Hotbar References Items, It Does Not Duplicate Them
 
-The hotbar should point to usable items in accessible storage.
+### Pillar 3: Independent item handling
 
-It should not create a second copy of the item.
+When the player pocked up an item, player must manually transfer them into different states, instead of sharing states.
 
-### Pillar 4 — Simple First, Expand Later
+These are different, independent states:
+- item that is holding on hand
+- Item that is in the toolbelt
+- Item that is in the backpack
+
+
+### Pillar 4: Simple First, Expand Later
 
 Start with fixed slots or simple list storage.  
 Do not build grid inventory, item rotation, advanced sorting, or nested bags unless the game truly needs them.
@@ -199,42 +187,48 @@ Do not build grid inventory, item rotation, advanced sorting, or nested bags unl
 
 # 3. Core Components
 
-## 3.1 Recommended High-Level Structure
+## 3.1 Example High-Level Structure
 
 ```text
 APlayerCharacter
- ├── UBackpackAccessComponent
- │    ├── EquippedBackpack : ABackpackActor reference
- │    └── GetActiveStorage()
+ ├── Hand
+ │    └── hold/use items
  │
- ├── UHotbarComponent
- │    ├── HotbarSlots
- │    └── References accessible items
+ ├── Toolbelt Component
+ │    └── Toolbelt Slots
  │
- └── Interaction Component
+ ├── Container Wearing Component
+ │    └── Equipped wearable container 
+ │
+ └── Interaction Component(s)
       └── Interacts with pickups, backpacks, containers
 
 
 ABackpackActor
  ├── UStorageComponent
- │    ├── Slots
- │    ├── Capacity
- │    └── Add / Remove / Move / Query
  │
- ├── Mesh / World Representation
  └── Backpack Data
 
 
-AChestActor / ALootContainerActor
+AContainerActor
  └── UStorageComponent
 
 
-AItemPickupActor
+AItemActor
  ├── Item Instance / Stack Data
  └── World pickup representation
 ```
 
----
+Note:
+- Hand slot
+When an item is just picked up, the item is with the state "on hand". "On hand" is only responsible for selecting the item to be used; it does not necessarily mean the item is in the Toolbelt or backpack. Player has to interact with Toolbelt/backpack to actually store the item.
+
+- Toolbelt System
+Toolbelt is a special container that mostly lives in the Character. It provides a shortcut for owner to quickly make an item with the state “on hand”.
+Toolbelt can be the same system as the container system, having the player themselves as the "container". Or, a modified/derived version of the container system, for supporting player-specific behaviours.
+
+- Item Actor
+Previously, in Steven’s project, the world representation and inventory representation are entirely separated (unrelated object/actor on structual sense). With the current new attempt, it is up to debate whether such strong decoupling is still demanded.
 
 ## 3.2 Main Actor / Component Responsibilities
 
@@ -243,9 +237,7 @@ AItemPickupActor
 The player should not directly own the full inventory.
 
 The player may own:
-
 - equipped backpack reference
-- hotbar component
 - interaction ability
 - currently opened container reference
 
@@ -255,8 +247,16 @@ Example responsibility:
 
 ```text
 Player presses pickup
-→ Player asks equipped backpack storage to add item
-→ Backpack storage accepts or rejects item
+ ├── Hand
+ │    └── hold/use items
+ │
+ ├── Toolbelt Component
+ │    └── Toolbelt Slots
+ ├── Player
+ │    └── hold/use items
+ │
+ ├── Toolbelt Component
+      └── Toolbelt Slots
 ```
 
 ---
