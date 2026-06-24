@@ -3,8 +3,13 @@
 ```cpp
 /*
  * Template for file structuring, aims to reduce cognitive load.
- * Make comment for every declarations, unless the name is enough self-explanatory.
- * Make enough linebreaks.
+ * Make concise, discriptive comment for every declarations, unless the name is enough self-explanatory.
+ * Log important state's change so it helps announcing unwanted behaviours.
+ * Make toggles for drawing important actions and queries so it helps visualising eviromental interactions.
+ * Do not use Namespace; always prefer BP accessable Config variables.
+ * 
+ * Additional Suggestion: 
+ * always prefer composition over inheritance, unless inheritance is required, or very benifitial.
  */
 
 
@@ -94,7 +99,7 @@ public:
 	/* ----- Subsection Name01 ----- */
 	
 	UFUNCTION(BlueprintCallable, Category="Example")
-	void Request_Start();
+	void Request_StartEntryPoint();
 	
 	
 	
@@ -131,9 +136,9 @@ private:
 	
 	// Internal request reroute
 	UFUNCTION(Server, Reliable)
-	void RpcServer_Start();
+	void RpcServer_StartEntryPoint();
 	
-	// ServerSide works
+	// Authrized entrypoint
 	bool Auth_TryStart();
 	
 	
@@ -170,6 +175,11 @@ private:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
 	TObjectPtr<UExampleClass> ExampleObj;
+	
+	/* ----- Subsection Name02 ----- */
+	
+	    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="CustomMovement|Climbing|Debug", meta=(AllowPrivateAccess="true"))
+    bool bSectionName_DebugDraw = false;
 }
 
 

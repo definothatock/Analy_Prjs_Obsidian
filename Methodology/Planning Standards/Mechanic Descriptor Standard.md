@@ -144,7 +144,7 @@ Examples:
 
 ---
 
-# 4. Core Functions *(if applicable)*
+# 4. Core Components/Functions *(if applicable)*
 Describe the minimum functional pieces needed to build it.
 
 >Use Tick() only when it's necessity or benefits wins the drawbacks.
@@ -310,9 +310,9 @@ Examples:
 - Latency / desync risks
 
 Add network prefix for functions:
-- *Request_* - indicates general invoking 
+- *Request_* - indicates general invoking
 - *RpcServer_* - indicates client requesting server action
-- *Auth_*-  indicates authenticated (Hosting Server usually) 
+- *Auth_* -  indicates authenticate-gated action
 - *MulC_* - indicates multicast
 
 After network prefix, add tag right before function name:
