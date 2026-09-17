@@ -32,7 +32,7 @@ struct ExampleStruct
     GENERATED_BODY()  
   
     UPROPERTY()  
-    FName ExampleId = NAME_None;  
+    FName ExampleId = NAME_None;
 };
 
 
