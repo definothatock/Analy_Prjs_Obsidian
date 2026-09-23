@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysed Topic/Asked/Elden Ring and its ancestors.md",
+                "file": "Analysed Topic/Responses/Answering to how I analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elden Ring and its ancestors"
+              "title": "Answering to how I analysis"
             }
           },
           {
@@ -213,20 +213,25 @@
   "active": "d461b593ae1bb8d6",
   "lastOpenFiles": [
     "Plannings/FYP Backup/Core Framework (rules and mechanics).md",
-    "Analysed Topic/Asked/Elden Ring and its ancestors.md",
+    "Analysed Topic/Responses/Answering to how I analysis.md",
+    "Analysed Topic/Responses",
+    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
+    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
     "Methodology/Analysis Standards/Analytical Discussion Standard on Designs.md",
-    "Plannings/FYP Backup/Game Flow.md",
+    "Methodology/Internal References/Terminology & Definition.md",
     "Methodology/Internal References/T_GenreSupportingLadder.png",
+    "Methodology/Internal References/Attribute Reference Table.md",
+    "Raw/Wondering Basket/HowIsThisFun00.png",
+    "Analysed Topic/Asked/Outer Wild's not-finished tendency.md",
+    "Analysed Topic/Asked/Expedition 33 vs Trad JRPG.md",
+    "Analysed Topic/Asked/Elden Ring and its ancestors.md",
+    "Plannings/FYP Backup/Game Flow.md",
     "Plannings/FYP Backup/Project Reflection.md",
     "Plannings/FYP Backup",
     "Analysed Topic/Asked/ZZZ TV.md",
-    "Analysed Topic/Asked/Outer Wild's not-finished tendency.md",
-    "Analysed Topic/Asked/Expedition 33 vs Trad JRPG.md",
     "Analysed Topic/Asked",
     "Plannings/Project Collection/Composite Vitality System.md",
     "Plannings/Project Collection/Physical dragging.md",
-    "Methodology/Internal References/Terminology & Definition.md",
-    "Methodology/Internal References/Attribute Reference Table.md",
     "Implementation/File Layout Template.md",
     "Researched/Untitled.md",
     "Analysed Topic",
@@ -236,19 +241,14 @@
     "Researched/Mechanic knowledge depot.md",
     "Plannings/Project Collection/Container (Backpack) Inventory Mechanics & Systems.md",
     "Plannings/Project Collection",
-    "Methodology/Planning Standards/Mechanic Descriptor Standard.md",
-    "Methodology/Planning Standards/Design Standard on Mechanics & Systems.md",
     "Plannings",
     "Implementation",
     "Raw",
     "Methodology",
-    "Raw/Wondering Basket/HowIsThisFun00.png",
-    "Untitled.base",
     "Untitled 1.md",
     "Wondering Basket/Untitled 1.md",
     "[[Attribute.md",
     "TEMP.md",
-    "Platformer.md",
-    "PvE.md"
+    "Platformer.md"
   ]
 }
