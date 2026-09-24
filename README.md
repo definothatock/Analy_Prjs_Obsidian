@@ -1,5 +1,5 @@
 Other available language: [简体中文 CN_sim](README_CN_sim.md) | [繁體中文 CN_tra](README_CN_tra.md)
-The English version shall prevail in all matters relating to this project.
+<br>The English version shall prevail in all matters relating to this project.
 # Game Design Research Vault
 
 This repository is a structured Obsidian vault for game analysis, design research, and project planning. It is organized to help visitors quickly understand the main themes of the collection and navigate toward materials that may be useful for design study, system thinking, and project development.
